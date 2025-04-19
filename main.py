@@ -20,7 +20,7 @@ WIN_BG_COLOR = (0, 0, 0, 180)  # Полупрозрачный фон для те
 
 # Создание окна
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Dynamic Tic Tac Toe")
+pygame.display.set_caption("Динамические крестики нолики")
 screen.fill(BG_COLOR)
 
 font = pygame.font.Font(None, 40)
